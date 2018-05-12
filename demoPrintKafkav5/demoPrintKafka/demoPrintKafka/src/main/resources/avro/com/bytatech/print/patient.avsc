@@ -1,0 +1,9 @@
+{"namespace": "com.bytatech.print",
+  "type": "record",
+  "name": "Patient",
+  "fields": [
+    {"name": "name", "type": "string"},
+    {"name": "patientid",  "type": ["long", "null"]},
+    {"name": "address", "type": ["string", "null"]}
+  ]
+}

@@ -1,0 +1,10 @@
+{"namespace": "com.bytatech.print",
+  "type": "record",
+  "name": "Payment",
+  "fields": [
+   {"name": "name", "type": "string"},
+    {"name": "patientid",  "type": ["long", "null"]},
+    {"name": "bookingid", "type": ["long", "null"]},
+     {"name": "doctorname",  "type": ["string", "null"]}
+  ]
+}
