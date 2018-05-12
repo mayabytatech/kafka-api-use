@@ -55,21 +55,8 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @SpringBootApplication
-public class DemoPrintKafkaApplication /*
-										 * extends AbstractKafkaAvroSerDeConfig
-										 */ {
-
-	/**
-	 * @param config
-	 * @param props
-	 */
-
-	/*
-	 * private static ConfigDef config; public
-	 * DemoPrintKafkaApplication(ConfigDef config, Map<?, ?> props) {
-	 * super(config, props); // TODO Auto-generated constructor stub }
-	 */
-
+public class DemoPrintKafkaApplication
+	
 	/**
 	 * @param config
 	 * @param props
